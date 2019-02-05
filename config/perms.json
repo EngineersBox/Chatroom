@@ -1,0 +1,51 @@
+{
+  "member": [
+    {
+      "permissions": [
+        {
+          "send_message": true,
+          "add_friend": true,
+          "kick_user": false,
+          "tempban_user": false,
+          "ban_user": false
+        }
+      ],
+      "prefix": "Member",
+      "text_colours": [
+        {
+          "red": true,
+          "yellow": true,
+          "green": true,
+          "blue": true
+        }
+      ]
+    }
+  ],
+  "moderator": [
+    {
+      "send_message": true,
+      "add_friend": true,
+      "kick_user": true,
+      "tempban_user": false,
+      "ban_user": false
+    }
+  ],
+  "admin": [
+    {
+      "send_message": true,
+      "add_friend": true,
+      "kick_user": true,
+      "tempban_user": true,
+      "ban_user": false
+    }
+  ],
+  "owner": [
+    {
+      "send_message": true,
+      "add_friend": true,
+      "kick_user": true,
+      "tempban_user": true,
+      "ban_user": true
+    }
+  ]
+}
